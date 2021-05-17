@@ -10,7 +10,7 @@ This is a simple tile editor in the Unity game engine.
 
 ![](https://github.com/1Novac1/Simple-in-game-tilemap-editor/blob/main/docs/gif2.gif)
 
-It is necessary to initialize the tilemap in the script as it is done in the script: [`TilemapEditor`](https://github.com/1Novac1/Simple-in-game-tilemap-editor/blob/main/docs/TilemapEditor.cs).
+It is necessary to initialize the tilemap in the script as it is done in the script: `TilemapEditor`.
 
 ```cs
 private void Awake()
