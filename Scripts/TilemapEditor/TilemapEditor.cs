@@ -20,9 +20,9 @@ public class TilemapEditor : MonoBehaviour
         }
 
         flyingTile = Instantiate(tile.gameObject);
-        if (flyingTile.GetComponent<ITile>() is ITile)
+        if (flyingTile.GetComponent<ITile>() is ITile _tile)
         {
-            Tile = flyingTile.GetComponent<ITile>();
+            Tile = _tile;
         }
         else
         {
